@@ -5,6 +5,7 @@ import queue
 #adrian de jesus hernandez grullon 2021-1001  
 #Jesus Grullon 20210915
 #Bianny Holguín 20211274
+# Robert Santos 20210956
 BARBEROS = 1 
 CLIENTES = 100 
 ASIENTOS = 4 
