@@ -2,7 +2,8 @@ import threading
 import time
 import random
 import queue 
-
+#adrian de jesus hernandez grullon 2021-1001  
+#Jesus Grullon 20210915
 BARBEROS = 1 
 CLIENTES = 100 
 ASIENTOS = 4 
