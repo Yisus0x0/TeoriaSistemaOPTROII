@@ -1,0 +1,31 @@
+https://miucateciedu-my.sharepoint.com/:v:/g/personal/20210956_miucateci_edu_do/ET0V_6s2YYlDlKL9JaxNkd8BcxdCi11TtHQR2mzxlZqiXA?e=kshfkZ
+
+
+Lo primero que hacemos es declarar las variables
+
+Luego definimos las funciones
+
+Def espera con un sleep random que simula el tiempo que dura el cliente esperando su turno
+
+La clase barbero con la función ede despertar y dormir
+
+Def run para iniciar el algoritmo tenemos un print inicial que nos indica que el barbero está durmiendo porque aún no tiene clientes, inmediatamente  llega un cliente el barbero despierta y comienza el corte
+La duración del corte dura 5 segundos
+
+El def init me va indicando el numero del cliente que va llegando 
+
+El def corte que nos simula los 5 segundos que dura el corte 
+
+El def cortar aquí se hace eo llamado al cliente para que pase a cortarse el pelo, se esperan los 5segundo del corte, luego nos muestra que el barbero terminó el corte y despacha el cliente 
+
+Def run controla la llegada y el espacio en la barberia, si no hay espacio asiento el cliente se va, pero si hay el cliente toma asiento 
+
+El If_name_==Main creamos una lista para almacenar los clientes que están en cola y hay que atender 
+
+For i (barbero) creamos el hilo barbero 
+
+For i (cliente) creamos el hilo cliente, con un tiempo de llegada y si el cliente se sienta en la sala de espera se almacena en la lista para clientes 
+
+For cliente en lista se ejecuta para cuando ya no están llegando clientes y hay que terminar con lo que están en la sala de espera, que son los que están en la lista 
+
+Luego de eso un time sleep que simula que el barbero esta limpiando la barberia para finalizar el trabajo y cerrar la barberia.
